@@ -136,11 +136,13 @@ ul {
 
 /* hero */
 
-.hero {
-    background-color: #2f303a;
+ .hero {
+    background-color: #2F303A;
     text-align: center;
     padding-top: 200px;
-    padding-bottom: 200px;
+    padding-bottom: 200px; 
+    height: 600px;
+    width: 1600px;
 }
 
 .hero-title {
@@ -433,4 +435,22 @@ ul {
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
    
+}
+
+
+/* Overlay */
+
+.overlay {
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)), 
+        url(../images/people-working.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
 }
