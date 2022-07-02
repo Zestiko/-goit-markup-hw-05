@@ -456,15 +456,83 @@ ul {
     background-size: cover;
 }
 
+/* Icons */
 
 .details-item ::before {
     display: block;
     content: "";
-    height: 120px;
-    background-image: url(../images/Vector.png);
+    width: 120px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 4px;
+}
 
+
+.icon-sputnik::before{
+    display: block;
+    content: "";
+    background-image: url(../images/sputnik.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    height: 120px;
+    padding-left: 102px;
+    padding-right: 102px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #F5F4FA
+    
+
+    
+}
+
+.icon-watch::before {
+    display: block;
+        content: "";
+        background-image: url(../images/watch.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 4px;
+        margin-bottom: 30px;
+        height: 120px;
+        padding-left: 102px;
+        padding-right: 102px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        background-color: #F5F4FA
+
+}
+
+.icon-laptop::before {
+    display: block;
+    content: "";
+    background-image: url(../images/laptop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    height: 120px;
+    padding-left: 102px;
+    padding-right: 102px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #F5F4FA
+}
+
+
+.icon-astronaut::before {
+    display: block;
+    content: "";
+    background-image: url(../images/astronaut.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    height: 120px;
+    padding-left: 102px;
+    padding-right: 102px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #F5F4FA
 }
