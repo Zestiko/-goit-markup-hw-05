@@ -118,6 +118,7 @@ ul {
 }
 
 .header-address {
+    display: flex;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -535,4 +536,24 @@ ul {
     padding-top: 25px;
     padding-bottom: 25px;
     background-color: #F5F4FA
+}
+
+.icon-mail::before {
+    display: block;
+    content: "";
+    background-image: url(../images/konvert.svg);
+    background-repeat: no-repeat;
+    height: 12px;
+    width: 16px;
+    margin-right: 10px;
+}
+
+.icon-telefon::before {
+    display: block;
+    content: "";
+    background-image: url(../images/telefon.svg);
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 10px;
+    margin-right: 10px;
 }
