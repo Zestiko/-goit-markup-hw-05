@@ -146,14 +146,13 @@ ul {
 }
 
 .hero-title {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
-    color: var(--white-color);
-    margin-bottom: 30px;
-    text-transform: uppercase;
-    text-align: center;
+        color: var(--white-color);
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        margin-bottom: 30px;
 }
 
 .hero-btn {
