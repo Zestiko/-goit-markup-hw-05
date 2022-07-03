@@ -125,10 +125,10 @@ ul {
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--text-color-gray);
+    align-items: center;
 }
 
-.header-address:hover,
-.header-address:focus {
+.header-address:hover {
     color: var(--accent-color);
 }
 
@@ -200,6 +200,7 @@ ul {
 .details-item {
     margin-right: 30px;
 }
+
 
 .details-item:last-child {
     margin-right: 0;
@@ -459,101 +460,72 @@ ul {
 
 /* Icons */
 
-.details-item ::before {
-    display: block;
-    content: "";
-    width: 120px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+.icon-mail {
+margin-right: 10px;
+fill: var(--text-color-gray);
+}
+.icon-mail:hover {
+    fill: var(--accent-color);
 }
 
+.icon-telefon {
+   margin-right: 10px;
+   fill: var(--text-color-gray);
+}
 
-.icon-sputnik::before{
-    display: block;
-    content: "";
-    background-image: url(../images/sputnik.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 4px;
-    margin-bottom: 30px;
+.icon-telefon:hover {
+    fill: #2196f3;
+}
+
+.details-icon-sputnik {
     height: 120px;
-    padding-left: 102px;
-    padding-right: 102px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    background-color: #F5F4FA
-    
-
-    
-}
-
-.icon-watch::before {
-    display: block;
-        content: "";
-        background-image: url(../images/watch.svg);
-        background-repeat: no-repeat;
-        background-position: center;
-        border-radius: 4px;
-        margin-bottom: 30px;
-        height: 120px;
-        padding-left: 102px;
-        padding-right: 102px;
-        padding-top: 25px;
-        padding-bottom: 25px;
-        background-color: #F5F4FA
-
-}
-
-.icon-laptop::before {
-    display: block;
-    content: "";
-    background-image: url(../images/laptop.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F4FA;
     margin-bottom: 30px;
-    height: 120px;
-    padding-left: 102px;
-    padding-right: 102px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    background-color: #F5F4FA
-}
-
-
-.icon-astronaut::before {
-    display: block;
-    content: "";
-    background-image: url(../images/astronaut.svg);
-    background-repeat: no-repeat;
-    background-position: center;
     border-radius: 4px;
-    margin-bottom: 30px;
-    height: 120px;
-    padding-left: 102px;
-    padding-right: 102px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    background-color: #F5F4FA
 }
 
-.icon-mail::before {
-    display: block;
-    content: "";
-    background-image: url(../images/konvert.svg);
-    background-repeat: no-repeat;
-    height: 12px;
-    width: 16px;
+.details-icon-watch {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+.details-icon-nout {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+.details-icon-astronaut {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+.team-social-items {
+display: flex;
+justify-content: center;
+}
+
+.team-social-item:not(:last-child) {
     margin-right: 10px;
 }
 
-.icon-telefon::before {
-    display: block;
-    content: "";
-    background-image: url(../images/telefon.svg);
-    background-repeat: no-repeat;
-    height: 16px;
-    width: 10px;
-    margin-right: 10px;
+.team-social-item {
+    list-style: none;
 }
