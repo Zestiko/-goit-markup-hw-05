@@ -544,7 +544,8 @@ fill: currentColor;
 
 .team-social-items {
 display: flex;
-pad: ;
+padding-left: 32px;
+padding-right: 32px;
 
 }
 
@@ -689,7 +690,8 @@ margin-bottom: 20px;
 
 .join-list {
     display: flex;
-    align-items: baseline;
-    justify-content: left;
-    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
