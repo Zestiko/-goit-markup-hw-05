@@ -290,6 +290,7 @@ ul {
     font-size: 16px;
     line-height: 1.18;
     color: var(--text-color-gray);
+    margin-bottom: 16px;
 }
 
 .team-container {
@@ -305,6 +306,12 @@ ul {
     border-radius: 0px 0px 4px 4px;
 }
 
+/* clients */
+.section-clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 
 /* Footer */
 
@@ -312,8 +319,6 @@ ul {
     background-color: #2f303a;
     padding-top: 60px;
     padding-bottom: 60px;
-    display: flex;
-    align-items: baseline;
 }
 
 /* Logo */
@@ -539,7 +544,8 @@ fill: currentColor;
 
 .team-social-items {
 display: flex;
-justify-content: center;
+pad: ;
+
 }
 
 .team-social-item:not(:last-child) {
@@ -550,7 +556,7 @@ justify-content: center;
     list-style: none;
     display: flex;
     margin-left: 0px;
-    padding-left: 0px;
+    padding: 0px;
     width: 100%;
     height: 100%;
     
@@ -566,7 +572,7 @@ justify-content: center;
     margin-left: 0px;
     margin-right: 0px;
     cursor: pointer;
-    fill: #FFFFFF;
+    fill: #AFB1B8;;
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.1);
@@ -589,13 +595,12 @@ justify-content: center;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    margin-bottom: 50px;
-    margin-top: 94px;
 }
 
 .client-item {
     flex-basis: calc(100% / 6-30px);
     margin-left: 30px;
+    color: #AFB1B8;
 }
 
 
@@ -604,7 +609,6 @@ justify-content: center;
     display: flex;
     justify-content: center;
     margin-left: calc(-1 * 30px);
-    margin-bottom: 94px;
 }
 
 .clients {
@@ -649,6 +653,7 @@ margin-bottom: 20px;
 
 .container-footer-social {
     display: flex;
+    align-items: baseline;
 }
 
 .porfolio-item:hover,
@@ -661,11 +666,11 @@ margin-bottom: 20px;
 
 
 .container-clients {
-    padding-top: 94px;
-    padding-bottom: 94px;
-    width: 1200px;
-    margin-left: auto;
     margin-right: auto;
+        margin-left: auto;
+        width: 1200px;
+        padding-right: 15px;
+        padding-left: 15px;
 }
 
 .section-title-clients {
@@ -674,4 +679,17 @@ margin-bottom: 20px;
     line-height: 1.16;
     text-align: center;
    padding-bottom: 50px;
+}
+
+
+.footer-flex {
+    display: flex;
+    align-items: baseline;
+}
+
+.join-list {
+    display: flex;
+    align-items: baseline;
+    justify-content: left;
+    flex-wrap: wrap;
 }
