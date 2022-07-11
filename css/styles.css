@@ -412,6 +412,8 @@ ul {
     background-color: #2196f3;
     color: #ffffff;
     cursor: pointer;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
 
 /* Portfolio plates */
@@ -547,10 +549,12 @@ display: flex;
 padding-left: 32px;
 padding-right: 32px;
 
+
 }
 
 .team-social-item:not(:last-child) {
     margin-right: 10px;
+    
 }
 
 .team-social-item {
@@ -573,7 +577,7 @@ padding-right: 32px;
     margin-left: 0px;
     margin-right: 0px;
     cursor: pointer;
-    fill: #AFB1B8;;
+    fill: #FFFFFF;
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.1);
@@ -582,7 +586,8 @@ padding-right: 32px;
 .team-social-link:hover,
 .team-social-link:focus {
     background-color: #2196F3;
-    fill: #ffffff;
+    fill: #FFFFFF
+
 }
 
 .section-title-clients {
