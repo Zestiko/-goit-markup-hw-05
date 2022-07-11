@@ -648,6 +648,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #FFFFFF;
 margin-bottom: 20px;
+margin-left: 35px;
 
 }
 
@@ -667,7 +668,7 @@ margin-bottom: 20px;
 
 
 .container-clients {
-    margin-right: auto;
+        margin-right: auto;
         margin-left: auto;
         width: 1200px;
         padding-right: 15px;
@@ -689,9 +690,9 @@ margin-bottom: 20px;
 }
 
 .join-list {
-    display: flex;
     padding: 0;
     list-style: none;
     margin-top: 0px;
     margin-bottom: 0px;
+    margin-left: 70px;
 }
