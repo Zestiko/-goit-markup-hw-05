@@ -182,6 +182,8 @@ ul {
     background-color: #188ce8;
     color: #ffffff;
     cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
 /* sections main title */
@@ -565,6 +567,8 @@ padding-right: 32px;
     width: 100%;
     height: 100%;
     
+   
+    
 }
 
 .team-social-link {
@@ -577,18 +581,18 @@ padding-right: 32px;
     margin-left: 0px;
     margin-right: 0px;
     cursor: pointer;
-    fill: #FFFFFF;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.1);
+    fill: #AFB1B8;
 }
+
 
 .team-social-link:hover,
 .team-social-link:focus {
     background-color: #2196F3;
-    fill: #FFFFFF
-
+    fill: #FFFFFF; 
 }
+
 
 .section-title-clients {
     color:  #212121;
@@ -653,8 +657,28 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #FFFFFF;
 margin-bottom: 20px;
-margin-left: 35px;
 
+}
+
+.footer-icon-social {
+    padding-right: 10px;
+
+}
+
+.footer-team-social {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border: none;
+    border-radius: 50%;
+    list-style: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    fill: #FFFFFF;
+    background: rgba(255, 255, 255, 0.1);
 }
 
 
@@ -700,4 +724,52 @@ margin-left: 35px;
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 70px;
+}
+
+.footer-team-social:hover,
+.footer-team-social:focus {
+    background-color: #2196F3;
+    fill: #FFFFFF;
+}
+
+.footer-team-social-items {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    color: #FFFFFF;
+}
+
+
+
+/* Десктопные приложения */
+
+.work-text {
+position: absolute;
+    width: 100%;
+    height: 70px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    left: 0;    
+    background: rgba(47, 48, 58, 0.8);
+}
+
+
+.product-thumb {
+    display: flex;
+    position: relative;
 }
