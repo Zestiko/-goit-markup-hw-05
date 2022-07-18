@@ -78,17 +78,6 @@ ul {
     position: relative;
 }
 
-.nav-link:::after {
-    content: '';
-    display: block;
-    width: 48px;
-    height: 4px;
-    background-color: var(--accent-color);
-    position: absolute;
-    left: 0;
-    bottom: -33.4px;
-    border-radius: 2px;
-}
 
 .nav-item {
     margin-right: 50px;
@@ -108,12 +97,31 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: var(--text-color-black);
     color: inherit;
-    text-decoration: none;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+}
+
+.nav-link.current:after {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 4px;
+    line-height: 32px;
+    background-color: #2196F3;
+    border-radius: 2px;
+    bottom: -32px;
+
+}
+
+.nav-link.current {
+    left: 0;
+    bottom: 0;
+    position: relative;
+    
 }
 
 
@@ -793,11 +801,6 @@ position: absolute;
 }
 
 
-.product-thumb {
-    display: flex;
-    position: relative;
-}
-
 
 
 /* Modal */
@@ -847,49 +850,40 @@ position: absolute;
    cursor: pointer;
 }
 
-.portfolio-thumb:hover::before {
-    display: inline-block;
-    content: "";
-    position: absolute;    
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    opacity: 1;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-    position: relative;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    padding: 64px 24px;
-    background-color: rgba(33, 150, 243, 0.9);
-    transform: translateY(101%);
-    transition: transform 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
+/* Porfolio Overlay */
 
-/* .portfolio-overlay { */
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
+.product-thumb {
     position: relative;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    padding: 64px 24px;
-    background-color: rgba(33, 150, 243, 0.9);
-    transform: translateY(101%);
-    transition: transform 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
+    overflow: hidden;
+    width: 370px;
+    height: 404px;
+}
+
+.porfolio-item {
+
+}
+
+.portfolio-overlay {
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+top: 0;
+right: 0;
+width: 100%;
+height: 100%;
+padding: 64px 24px;
+background-color: rgba(33, 150, 243, 0.9);
+transform: translateY(101%);
+transition: transform 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+opacity: 0;
+}
+
+.portfolio-item:hover .portfolio-overlay{
+    transform: translateY(0);
+}
