@@ -28,7 +28,9 @@ ul {
     padding-top: 0;
     padding-bottom: 0;
 }
-
+ img {
+    display: block;
+ }
 .container {
     margin-right: auto;
     margin-left: auto;
@@ -286,6 +288,7 @@ ul {
 }
 
 .work-item {
+    position: relative;
     margin-right: 30px;
 }
 
